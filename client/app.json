@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "camera-app",
+    "slug": "camera-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#ededed",
+      "translucent": false
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.yourappname",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.yourcompany.yourappname",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
