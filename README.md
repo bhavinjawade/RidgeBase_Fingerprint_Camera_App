@@ -1,5 +1,7 @@
 # RidgeBase Fingerprint Acquistion Mobile App
 
+![RidgeBase](https://raw.githubusercontent.com/bhavinjawade/RidgeBase/main/images/coverimage.png "RidgeBase")
+
 This repository consists of the contactless fingerprint acquisition app used to acquire the [RidgeBase Dataset](https://www.buffalo.edu/cubs/research/datasets/ridgebase-benchmark-dataset.html)
 
 The repository consists of a front-end application built using React Expo and back-end built on python flask. The front-end sends the acquired image to the backend for storage and no image is store on the local device. Details of the app can be found in this [WIFS 2021 paper](https://ieeexplore.ieee.org/document/9648393).
